@@ -33,8 +33,8 @@ The following functionality is **completed**:
 
 ## Screenshots
 
-<img src='library1.jpg' title='Library API Page 1' width='' alt='API page 1' />
-<img src='library2.jpg' title='Library API Page 2' width='' alt='API page 2' />
-<img src='library3.jpg' title='Library API Page 3' width='' alt='API page 3' />
-<img src='library4.jpg' title='Postman Testing' width='' alt='Postman example' />
-<img src='library5.jpg' title='View All Collections' width='' alt='View collections' />
+<img src='library1.JPG' title='Library API Page 1' width='' alt='API page 1' />
+<img src='library2.JPG' title='Library API Page 2' width='' alt='API page 2' />
+<img src='library3.JPG' title='Library API Page 3' width='' alt='API page 3' />
+<img src='library4.JPG' title='Postman Testing' width='' alt='Postman example' />
+<img src='library5.JPG' title='View All Collections' width='' alt='View collections' />
