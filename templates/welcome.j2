@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Info</title>
+  </head>
+  <body>
+    {% if session %}
+        <h1>Welcome {{session}}!</h1>
+        <form action="/logout" >
+         <button type="submit">Logout</button>
+      </form>
+        <h2>JWT Token</h2>
+        <div><pre>{{jwt}}</pre></div>
+        <h2>JWT Token (Decoded)</h2>
+        <div><pre>{{pretty}}</pre></div>
+    {% else %}
+        <h1>Welcome Guest, Would you like to log in?</h1>
+        <form action="/login" method="post">
+          <label for="username">Username: </label>
+            <input type="text" id="username" name="username"><br><br>
+          <label for="password">Password: </label>
+            <input type="text" id="password" name="password"><br><br>
+            <input type="submit" value="Login" /><br><br><br><br>
+        </form>
+        <form action="/signup" method="post">
+          <label for="name">Name: </label>
+            <input type="text" id="name" name="name"><br><br>
+          <label for="type">Type: </label>
+            <input type="text" id="type" name="type"><br><br>
+          <label for="capacity">Capacity: </label>
+            <input type="number" id="capacity" name="capacity"><br><br>
+            <input type="submit" value="Create Account"/>
+        </form>
+    {% endif %}
+  </body>
+
+</html>
